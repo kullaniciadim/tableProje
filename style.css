@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
 
-    font-family: sans-serif;
+    font-family: poppins;
     background-color: #4A4E69;
 }
 
@@ -53,11 +53,44 @@ body{
     position: absolute;
     top: 90%;
 }
-.inputs input{
-    width: 8em;
+.AppendToTable{
+    text-align: center;
 }
-.AppendtoTable{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.inputs input{
+    background-color: #F2E9E4;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+    width: 10em;
+    margin: 0.3rem;
+    margin-top: 2em;
+}
+.buttons button{
+    border: none;
+    font-size: 1.2em;
+    padding: 0.9rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+}   
+#append{
+    background-color: aquamarine;
+}
+#clear{
+    background-color: #e63946;
+}
+
+#append:hover{
+    background-color: rgb(177, 252, 227);
+    color: #F2E9E4;
+}
+#clear:hover{
+    background-color: #e65e69;
+    color: #F2E9E4;
+}
+
+#append:active{
+    background-color: aquamarine;
+}
+#clear:active{
+    background-color: #e63946;
 }
