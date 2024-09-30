@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TRUTH</title>
+</head>
+<body>
+    <section>
+
+        <div class="AppendToTable">
+            <div class="inputs">
+                <input type="text" placeholder="1" id="txt1">
+                <input type="text" placeholder="2" id="txt2">
+                <input type="text" placeholder="3" id="txt3">
+                <input type="text" placeholder="4" id="txt4">
+                <input type="text" placeholder="5" id="txt5">
+                <input type="text" placeholder="6" id="txt6">
+                <input type="text" placeholder="7" id="txt7">
+            </div>
+            <div class="buttons">
+                <button onclick="Append()">Append Row</button>
+                <button onclick="Clear()">Clear Boxes</button>
+            </div>
+        </div>
+
+        <div class="schedule" id="expand">
+            <table class="weekTable">
+                <tr id="ScheduleTitle">
+                    <th colspan="7">Weekly Schedule</th>
+                </tr>
+                    <tr>
+                        <th id="monday">Monday      </th>
+                        <th id="tuesday">Tuesday    </th>
+                        <th id="wednesday">Wednesday</th>
+                        <th id="thursday">Thursday  </th>
+                        <th id="friday">Friday      </th>
+                        <th id="saturday">Saturday  </th>
+                        <th id="sunday">Sunday      </th>
+                    </tr>
+                <tr>
+                    <td>Fortnite Oyna</td>
+                    <td id="alert">Odev </td>
+                    <td id="empty">empt</td>
+                    <td>die</td>
+                    <td>aint nobody</td>
+                    <td>prayin'</td>
+                    <td>for me</td>
+                </tr>
+                <tr>
+                    <td>homework</td>
+                    <td>meet with frends</td>
+                    <td>give homie goodnight kiss</td>
+                    <td>die</td>
+                    <td>History class project</td>
+                    <td id="alert">Study exams</td>
+                    <td id="empty">empt</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <script src="page.js"></script>
+</body>
+</html>
